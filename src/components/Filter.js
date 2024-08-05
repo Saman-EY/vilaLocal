@@ -18,7 +18,7 @@ const Filter = ({ setFilter, setLoading }) => {
   let [Met, setMet] = useState('');
 
   return (
-    <div className="shadow-md mb-10 bg-gray-600">
+    <div className="shadow-md mb-10 bg-gray-800">
       <section className="flex gap-6 lg:container mx-auto px-7 py-4 flex-wrap items-center justify-center">
         <div className="FlexCenter px-2 gap-2 justify-between w-full max-w-xs bg-white rounded-md transition-all duration-400 hover:border-Gold border-2 focus-within:border-black">
           <input
